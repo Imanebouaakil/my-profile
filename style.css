@@ -1,6 +1,5 @@
 /* 1. Design du body : textes par défaut */
 body {
-  margin: 0;
   background-color: #f7f2f5;
   font-family: "Open Sans", sans-serif;
   color: #4a4a4a;
@@ -64,14 +63,10 @@ a:hover {
 }
 
 .btn-pink {
-  display: inline-block;
   background-color: #c2185b;
   color: white;
   padding: 10px 24px;
   border-radius: 30px;
-  font-weight: 600;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
 }
 
 .btn-pink:hover {
@@ -89,10 +84,14 @@ a:hover {
   padding: 0px 20px;
 }
 
-/* Ajustement spécifique à la photo de profil */
+/* Ajustements spécifiques (id) */
 #profile-picture {
   width: 150px;
   height: 150px;
+}
+
+#intro-text {
+  margin-bottom: 30px;
 }
 
 /* Container responsive : du moins spécifique au plus spécifique */
